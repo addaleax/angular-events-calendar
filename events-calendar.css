@@ -1,0 +1,29 @@
+.events-calendar .day.filled.events-0 { background-color: #eeeeee; }
+.events-calendar .day.filled.events-1 { background-color: #d6e685; }
+.events-calendar .day.filled.events-2 { background-color: #8cc655; }
+.events-calendar .day.filled.events-3 { background-color: #44a340; }
+.events-calendar .day.filled.events-4 { background-color: #1e6823; }
+
+.events-calendar.selection-applied .day { opacity: 0.5 }
+.events-calendar.selection-applied .day.selected { opacity: 1.0 }
+
+.events-calendar .day {
+  width: 11px;
+  height: 11px;
+  margin: 2px 1px;
+}
+
+.events-calendar .week {
+  margin: 0px 0px 1px 0px;
+  float: left;
+}
+
+.events-calendar {
+  clear: both;
+}
+
+.events-calendar-wrap::after {
+  content: "";
+  display: block; 
+  clear: both;
+}

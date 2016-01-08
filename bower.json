@@ -1,0 +1,27 @@
+{
+  "name": "angular-events-calendar",
+  "version": "1.0.0",
+  "authors": [
+    "Anna Henningsen <sqrt@entless.org>"
+  ],
+  "description": "Calendar in the style of GitHub contributions",
+  "main": "events-calendar.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "calendar",
+    "angular",
+    "ui",
+    "events"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/addaleax/angular-events-calendar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
