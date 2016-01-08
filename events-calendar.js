@@ -48,7 +48,7 @@ angular.module('eventsCalendar', [])
       
       scope.events = scope.events || [];
       
-      attrs.$observe('events', update);
+      scope.$watch('events',   update);
       attrs.$observe('upto',   update);
       attrs.$observe('since',  update);
       
